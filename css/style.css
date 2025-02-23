@@ -1,6 +1,56 @@
-.section-dotted {
-    background-image: url("logo/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+/* Make header fullscreen */
+.masthead {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Fullscreen height */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Video styling - covers the whole area */
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Push behind content */
+}
+
+/* Hide mobile video by default */
+.video-mobile {
+    display: none;
+}
+
+/* Show mobile video & hide desktop video on smaller screens */
+@media (max-width: 768px) {
+    .video-desktop {
+        display: none;
+    }
+    .video-mobile {
+        display: block;
+    }
+}
+
+/* Semi-transparent color overlay */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 29, 29, 0.7); 
+    z-index: 0; /* Keeps it behind text but above video */
+}
+
+/* Ensure text stays readable */
+.masthead .container {
+    position: relative;
+    z-index: 1;
+    color: white; /* Adjust based on video contrast */
 }
