@@ -1,0 +1,6 @@
+.section-dotted {
+    background-image: url("logo/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
