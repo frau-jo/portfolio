@@ -59,3 +59,47 @@
 .rounded-50 { border-radius: 50%; }
 .rounded-20 { border-radius: 20%; }
 .rounded-10 { border-radius: 10%; }
+
+.color-pink {
+    color: #c976a2;
+}
+
+.color-blue {
+    color: #335599;
+}
+
+.color-green {
+    color: #7db7a3;
+}
+
+.color-orange {
+    color: #a37c7e;
+}
+
+.color-beige {
+    color: #bea99d;
+}
+
+.bg-color-pink {
+    background-color: #c976a2;
+}
+
+.bg-color-blue {
+    background-color: #335599;
+}
+
+.bg-color-green {
+    background-color: #7db7a3;
+}
+
+.bg-color-orange {
+    background-color: #a37c7e;
+}
+
+.bg-color-beige {
+    background-color: #bea99d;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
