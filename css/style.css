@@ -44,7 +44,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(48, 29, 29, 0.7); 
+    background-color: rgba(37, 27, 27, 0.8); 
     z-index: 0; /* Keeps it behind text but above video */
 }
 
@@ -54,3 +54,8 @@
     z-index: 1;
     color: white; /* Adjust based on video contrast */
 }
+
+.rounded-30 { border-radius: 30%; }
+.rounded-50 { border-radius: 50%; }
+.rounded-20 { border-radius: 20%; }
+.rounded-10 { border-radius: 10%; }
