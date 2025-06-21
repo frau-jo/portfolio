@@ -8,54 +8,64 @@
     --bs-bright-green: #81d962;
 }
 
+.socials-logo{
+    height: 3rem !important;
+    width: 3rem !important;
+    margin: 5px;
+}
+
+.container-50 {
+    max-width: 40rem !important;
+}
+
 .fs-7 {
-    font-size: 12px;
+    font-size: 14px;
 }
 .fs-8 {
     font-size: 12px;
 }
 .bg-color-dark-pink {
-    background-color: var(--bs-dark-pink);
+    background-color: var(--bs-dark-pink) !important;
 }
 .bg-color-main-pink {
-    background-color: var(--bs-main-pink);
+    background-color: var(--bs-main-pink) !important;
 }
 .bg-color-light-pink {
-    background-color: var(--bs-light-pink);
+    background-color: var(--bs-light-pink) !important;
 }
 .bg-color-light-gray {
-    background-color: var(--bs-light-gray);
+    background-color: var(--bs-light-gray) !important;
 }
 .bg-color-bright-pink {
-    background-color: var(--bs-bright-pink);
+    background-color: var(--bs-bright-pink) !important;
 }
 .bg-color-bright-blue {
-    background-color: var(--bs-bright-blue);
+    background-color: var(--bs-bright-blue) !important;
 }
 .bg-color-bright-green {
-    background-color: var(--bs-bright-green);
+    background-color: var(--bs-bright-green) !important;
 }
 
 .color-dark-pink {
-    color: var(--bs-dark-pink);
+    color: var(--bs-dark-pink) !important;
 }
 .color-main-pink {
-    color: var(--bs-main-pink);
+    color: var(--bs-main-pink) !important;
 }
 .color-light-pink {
-    color: var(--bs-light-pink);
+    color: var(--bs-light-pink) !important;
 }
 .color-light-gray {
-    color: var(--bs-light-gray);
+    color: var(--bs-light-gray) !important;
 }
 .color-bright-pink {
-    color: var(--bs-bright-pink);
+    color: var(--bs-bright-pink) !important;
 }
 .color-bright-blue {
-    color: var(--bs-bright-blue);
+    color: var(--bs-bright-blue) !important;
 }
 .color-bright-green {
-    color: var(--bs-bright-green);
+    color: var(--bs-bright-green) !important;
 }
 
 /* NAVIGATION - START */
@@ -81,7 +91,7 @@
     font-size: 0.75rem;
 }
 #mainNav .navbar-brand {
-    color: var(--bs-main-pink);
+    color: var(--bs-main-pink) !important;
 }
 #mainNav .navbar-brand img {
     height: 2rem !important;
@@ -91,7 +101,7 @@
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: var(--bs-main-pink);
+    color: var(--bs-main-pink) !important;
 }
 
 @media (min-width: 992px) {
